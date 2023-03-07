@@ -7,10 +7,9 @@ import DogDetail from './components/dogComponents/dogDetail'
 import AddDog from './components/dogComponents/addDog';
 import NavBar from './components/home/navbar';
 import About from './components/home/about';
-import { useState } from 'react';
+import axios from 'axios';
 
-
-
+axios.defaults.baseURL='http://localhost:3001/'
 
 function App() {
   return (

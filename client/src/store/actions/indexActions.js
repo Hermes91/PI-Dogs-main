@@ -6,7 +6,7 @@ import { FETCH_DOGS, SEARCH_DOGS_BREED, ORDER_BY_BREED, ORDER_BY_WEIGHT, GET_TEM
 export function getAllDogs() {
     return async function (dispatch) {
         try {
-            const json = await axios.get('http://localhost:3001/dogs');
+            const json = await axios.get('/dogs');
             return dispatch({ type: FETCH_DOGS, payload: json.data })
         } catch (error) {
             console.log(error);
@@ -18,7 +18,7 @@ export function getAllDogs() {
 export function dogsBreedbyName(name) {
     return async function (dispatch) {
         try {
-            let json = await axios.get(`http://localhost:3001/dogs?name=${name}`)
+            let json = await axios.get(`/dogs?name=${name}`)
             return dispatch({
                 type: SEARCH_DOGS_BREED,
                 payload: json.data
@@ -33,7 +33,7 @@ export function dogsBreedbyName(name) {
 export function addDogs(payload) {
     return async function () {
         try {
-            var response = await axios.post('http://localhost:3001/dogs', payload)
+            var response = await axios.post('/dogs', payload)
             return response
         } catch (error) {
             alert("error indexAction")
@@ -82,7 +82,7 @@ export function filteredTemp(data) {
 export function getTemp() {
     return async function (dispatch) {
         try {
-            var temperament = await axios.get('http://localhost:3001/temperament');
+            var temperament = await axios.get('/temperament');
             return dispatch({
                 type: GET_TEMPERAMENTS,
                 payload: temperament.data
