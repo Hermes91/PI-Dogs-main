@@ -1,0 +1,50 @@
+.background {
+    background-image: url("../../resources/background-puppy.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enter {
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.enter h1 {
+    color: #BFD7EA;
+    font-size: 36pt;
+}
+
+.enter h2 {
+    color: #FF5A5F;
+    font-size: 24pt;
+    transition: color 0.5s ease;
+    margin-top: 2px;
+}
+
+.enter a:link {
+    text-decoration: none;
+}
+
+.enter a:visited {
+    text-decoration: none;
+}
+
+.enter a:active {
+    text-decoration: none;
+}
+
+.paw {
+    width: 50%;
+    transition: all .2s ease-in-out;
+}
+
+.paw:hover {
+    transform: scale(1.1);
+}

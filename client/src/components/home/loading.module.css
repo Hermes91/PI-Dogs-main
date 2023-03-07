@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.loading {
+    color: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 35px;
+}
+
+.container span {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    font-size: 36pt;
+    color: #FF5A5F;
+    font-weight: bold;
+}

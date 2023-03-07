@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #087E8B;
+    -webkit-box-shadow: 17px 16px 15px -14px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 17px 16px 15px -14px rgba(0, 0, 0, 0.64);
+    box-shadow: 17px 16px 15px -14px rgba(0, 0, 0, 0.64);
+}
+
+.cardDetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgContainer {
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 17px;
+    border: solid 3pt #FF5A5F;
+    overflow: hidden;
+    height: 200px;
+    width: 260px;
+}
+
+.container img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.dataContainer {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.data2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #FF5A5F;
+    width: 60%;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.nameDetail h1 {
+    margin-top: 15px;
+    margin-bottom: 0;
+    color: #BFD7EA;
+    background-color: #0B3954;
+}
+
+.temperament {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 20px;
+    justify-content: space-around;
+    color: #BFD7EA;
+    background-color: #0B3954;
+    height: fit-content;
+}
+
+.tempList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    gap: 5px;
+}
+
+.backButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF5A5F;
+    width: 160px;
+    height: 40px;
+    margin: 15px 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.backButton a:link {
+    color: #0B3954;
+}
+
+.backButton a:visited {
+    color: #0B3954;
+}
+
+.backButton a:hover {
+    color: #0B3954;
+}
+
+.backButton:active {
+    background-color: #087E8B;
+}
+
+.backButton a:active {
+    color: #BFD7EA;
+}

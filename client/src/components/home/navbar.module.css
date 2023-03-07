@@ -1,0 +1,46 @@
+.barra {
+    display: flex;
+    top: 0%;
+    padding: 5px 3%;
+    background-color: #0b3954;
+    align-items: center;
+    height: 54px;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding-left: 15%;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.nav li a:link {
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+}
+
+.nav li a:link {
+    text-decoration: none;
+    color: #bfd7ea;
+}
+
+.nav li a:visited {
+    text-decoration: none;
+    color: #bfd7ea;
+}
+
+.nav li a:hover {
+    text-decoration: none;
+    color: #bfd7ea;
+    background-color: #ff5a5f;
+}
+
+.nav li a:active {
+    text-decoration: none;
+    color: #bfd7ea;
+}

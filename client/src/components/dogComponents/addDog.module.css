@@ -1,0 +1,245 @@
+.backButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF5A5F;
+    width: 160px;
+    height: 40px;
+    margin: 15px 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.backButton a:link {
+    color: #0B3954;
+}
+
+.backButton a:visited {
+    color: #0B3954;
+}
+
+.backButton a:hover {
+    color: #0B3954;
+}
+
+.backButton:active {
+    background-color: #087E8B;
+}
+
+.backButton a:active {
+    color: #BFD7EA;
+}
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-areas: "left right";
+    max-width: 750px;
+    background-color: #0B3954;
+    height: 520px;
+    border-radius: 40px;
+    -webkit-box-shadow: 10px 14px 23px -11px rgba(23, 24, 26, 1);
+    -moz-box-shadow: 10px 14px 23px -11px rgba(23, 24, 26, 1);
+    box-shadow: 10px 14px 23px -11px rgba(23, 24, 26, 1);
+    overflow: hidden;
+}
+
+.container h2 {
+    color: #FF5A5F;
+}
+
+.leftCon {
+    background: #087E8B;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 30px 40px;
+    position: relative;
+    text-align: start;
+    width: 500px;
+    height: fit-content;
+    justify-content: space-between;
+    border-top-right-radius: 40px;
+}
+
+.leftCon label {
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 5px;
+    color: #BFD7EA;
+}
+
+.leftCon input {
+    margin-left: 5px;
+    width: 30%;
+    height: 18pt;
+    border-radius: 7px;
+    background-color: #0B3954;
+    color: #ff5a5f;
+    font-size: 12pt;
+}
+
+.leftCon input[name="name"] {
+    width: 55%;
+    border-radius: 7px;
+}
+
+.leftCon span {
+    font-size: 11pt;
+    padding-right: 25px;
+    color: #BFD7EA;
+    background-color: #C81D25;
+}
+
+.newInput {
+    padding: 5px 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.tempContainer {
+    background-color: #FF5A5F;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tempContainer h4 {
+    font-size: 14pt;
+    color: #0B3954;
+}
+
+.temps {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.temps ul {
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    justify-items: center;
+    justify-content: center;
+    margin-left: -25px;
+    margin-right: auto;
+
+}
+
+.temps ul div {
+    background-color: #087E8B;
+    color: #BFD7EA;
+    width: 110px;
+    margin-top: 15px;
+    border: solid #0B3954;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+.temps ul div:hover {
+    background-color: #883033;
+}
+
+select {
+    background-color: #0B3954;
+    color: #BFD7EA;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submit {
+    position: absolute;
+    top: 220px;
+    right: 130px;
+    background-color: #087E8B;
+    width: 150px;
+    padding: 10px 0px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 3pt #C81D25;
+    font-weight: bold;
+    font-size: 16pt;
+    color: #BFD7EA;
+}
+
+
+.submit:disabled {
+    color: #883033;
+    cursor: auto;
+    background-color: #FF5A5F;
+}
+
+.customDog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.customImg {
+    width: 200px;
+    overflow: hidden;
+    border: solid 4pt #FF5A5F;
+    border-radius: 10%;
+}
+
+.customDog img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.customName {
+    color: #FF5A5F;
+    font-size: 20pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize
+}
+
+.customInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #FF5A5F;
+    font-size: 11pt;
+    list-style: none;
+    padding: 0px 5px;
+    text-transform: capitalize
+}
+
+.customInfo h4 {
+    margin: 15px 8px 5px 8px;
+}
+
+.customTemp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5px;
+}
