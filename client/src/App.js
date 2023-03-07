@@ -9,7 +9,8 @@ import NavBar from './components/home/navbar';
 import About from './components/home/about';
 import axios from 'axios';
 
-axios.defaults.baseURL='http://localhost:3001/'
+//axios.defaults.baseURL='http://localhost:3001/'
+axios.defaults.baseURL='pi-dogs-main-production-ec07.up.railway.app'
 
 function App() {
   return (
