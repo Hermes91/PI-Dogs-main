@@ -10,7 +10,7 @@ export default function DogDetail() {
     let { id } = useParams()
     const [dog, setDog] = useState(null)
     useEffect(() => {
-        axios.get(`http://localhost:3001/dogs/${id}`)
+        axios.get(`/dogs/${id}`)
             .then((res) => {
                 setDog(res.data)
             })
